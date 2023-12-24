@@ -6,11 +6,17 @@
 # You need to load for most of your workflow.  Use `::` in your functions
 # For packages that you only call a few functions from, or attach packages
 # to specific targets using the `tar_target(..., packages = "PACKAGE")` argument.
-#
-# Packages that don't need to be loaded but need to still be installed should be
-# listed in the `_targets_package.R` file.
+suppressPackageStartupMessages({
+  
+  library(targets)
+  library(tarchetypes)
+  library(dplyr) # Avoid loading tidyverse by default, instead use individual packages
+  library(purrr)
+  # library(paws.storage) # Load paws.storage rather than the whole paws package
 
-library(targets)
-library(tarchetypes)
-library(tidyverse)
-#library(tidymodels)
+  
+  })
+
+
+# Check what is already used by your project by running
+# names(jsonlite::read_json(lockfile)$Packages)
