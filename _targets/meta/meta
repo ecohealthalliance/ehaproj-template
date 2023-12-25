@@ -1,0 +1,37 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|ab8e2e8e4c27830d|||||||||||||||
+all_plot_files|stem|2bb339e1379dddd2|ca8c3bdf2c491bee|a3dad144c40657ed|1683656025||t19329.9916882437s|7c851447131a82e3|30|qs|local|vector|||0.001||
+all_targets|function|e9487b92ac623649|||||||||||||||
+analysis_targets|object|1eb1bc8d77111ded|||||||||||||||
+aws_s3_upload|function|bd98cadba22dcfb5|||||||||||||||
+aws_s3_upload_single|function|4e608cbdf9601669|||||||||||||||
+capshot_all|function|2ea1fd539a071263|||||||||||||||
+check_anthro_data|function|e4ad3b81d74a5a0b|||||||||||||||
+data_input_targets|object|79954645aca38b3f|||||||||||||||
+data_processing_targets|object|776a77df6dc4dd9d|||||||||||||||
+data_targets|object|1eb1bc8d77111ded|||||||||||||||
+deploy_targets|object|5ffe6afca81d9674|||||||||||||||
+example_report|stem|a7668a73a2ad8b03|1584abca98a6e5e3|62c71f59fc6c5161|2101924986|outputs/example_report.html*reports/example_report.Rmd|t18971.8543359439s|a52a608bd529e525|658292|file|local|vector|||2.952||
+f|object|d90c53d1fb02a168|||||||||||||||
+load_env|function|1c2e26bafb5e47ea|||||||||||||||
+nutrition_data|stem|36484e5d640109ef|40bcd732128fc1e9|c3b5fc02cdc369c1|486710335||t18971.8540559645s|530fcc6c1135ce94|4636|rds|local|vector|||0.003||
+nutrition_data_check|stem|13ce0feee3fba6df|3e72916aaeb63cd4|aa1b4eeff73015e8|1660387930||t18971.8687078215s|f5557e92d97c04fe|12878|rds|local|vector|||12.347||
+nutrition_data_clean|stem|fcdb61ef4163e12b|97d63c8c0690699b|5271fbe4f971d373|619464695||t18971.8543018447s|1f9a34c88f53017d|3660|rds|local|vector|||0.008||
+nutrition_data_issues|stem|fcdb61ef4163e12b|8a0a799f0163e3f1|aa1b4eeff73015e8|2087054520||t18971.8685645934s|1f9a34c88f53017d|3660|rds|local|vector|||11.103||
+output_targets|object|0639094eddc12c5e|||||||||||||||
+outputs_readme|stem|fade0974d3b7f881|ce3f46f973418351|e2e7d586901917cb|1833669539|outputs/README.md*outputs/README.Rmd|t19329.9921662877s|1abb80ea62812447|882|file|local|vector|||0.351||
+outputs_targets|object|1eb1bc8d77111ded|||||||||||||||
+plan_targets|stem|0e931659ee93554e|98a51661f84e14d7|ef46db3751d8e999|156766894|_targets.R|t19329.9181494298s|2d214356c7805c7d|1303|file|local|vector|||0.002||
+plot_file_targets|object|1eb1bc8d77111ded|||||||||||||||
+plot_targets|object|1eb1bc8d77111ded|||||||||||||||
+readme|stem|67f7ab2479b128c0|0b842316a70fe6a6|98bc9877517e834c|1531186241|README.md*README.Rmd|t19329.9921605414s||7022|file|local|vector|||0.671||argument store is missing, with no default
+report_targets|object|1aa074405a606dd5|||||||||||||||
+report_template|stem|c3300f9df29bb96b|06025d7e3c4d4fba|4745aa592080ea1d|1893399057|reports/report-template.html*reports/report-template.Rmd|t19329.9916862992s|8199b02380702315|627745|file|local|vector|||0.554||
+reports|object|ed1e049979bf9746|||||||||||||||
+summarize_quantities|function|7ed4ac9e5b167ff5|||||||||||||||
+summarized_quantities|stem|c2ad3a635bd6d615|20b006d6588ac8c6|b28570204b38972e|1600875836||t19329.9916881045s|a96c250e4b19e03e|54|qs|local|vector|||0.001||
+targets_files|stem|592c830f6d6c3f48|7b7c8a4068e91959|ef46db3751d8e999|1123494618|_targets_config.R*_targets.R|t19714.6765819725s|51f7ad908b9e68b5|629|file|local|vector|||0.001||
+uploaded_report|stem|3a3e37142b7f1586|015cbeba36d527e0|988c5ab80bc20118|-1668699945||t18971.8687098074s|6efc4bfe9d27bd5a|46|rds|local|vector|||0.111|AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_REGION environment       variables must all be set to upload to AWS, probably in the .env file|
+user_rprof|object|7bbb6f5be9480d28|||||||||||||||
+wasting_prevalence|stem|df47aac55a4bb5b4|a46b60513c27342f|9f94f956ece37e75|1641230917||t18971.8543025244s|7e02ad38317bcde4|55|rds|local|vector|||0.002||
+wasting_recode|stem|f8b3c8d8d3e4d763|14c678b6d4e245c1|4f4b95be330aba76|-583764828||t18971.8543022514s|d778b2938f7c0a1c|3829|rds|local|vector|||0.008||

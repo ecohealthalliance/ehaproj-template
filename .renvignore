@@ -1,0 +1,16 @@
+# This file instructs {renv} to only look in certain files and directories
+# when scanning for project dependencies. This speeds up startup by preventing
+# scanning of large directories.
+*
+!packages.[rR]
+!*.[rR]
+!*.[rR]md
+!R/*.[rR]
+!_targets*.[rR]
+!vignettes/*.[rR]
+!vignettes/*.[rR]md
+!reports/*.[rR]
+!reports/*.[rR]md
+!outputs/*.[rR]
+!outputs/*.[rR]md
+
