@@ -12,7 +12,8 @@ Encoding: UTF-8
 RnwWeave: knitr
 LaTeX: pdfLaTeX
 
-BuildType: Makefile
+BuildType: Custom
+CustomScriptPath: _targets.R
 
 UseNativePipeOperator: Yes
 

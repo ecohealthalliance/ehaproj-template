@@ -1,5 +1,14 @@
-# Identify file types for simpler scanning
-# ========================================
+# ---- Encrypted Files ---------------------------------------------------------
+# These files will be encrypted using git-crypt by default if it is being used
+
+.env filter=git-crypt diff=git-crypt
+auth/** filter=git-crypt diff=git-crypt
+
+# ---- File Type ---------------------------------------------------------------
+# Pre-indentifying file types here can speed up git operations by skipping
+# binary files so git doesn't attempt to scan or diff them
+# See https://git-scm.com/docs/gitattributes#_using_macro_attributes
+
 *.Rdata              binary
 *.RData              binary
 *.rda                binary
@@ -22,6 +31,3 @@ _targets/objects/**  binary
 *.Rproj              text
 *.Rmd                linguist-language=R
 
-## Encrypted Files
-.env filter=git-crypt diff=git-crypt
-auth/** filter=git-crypt diff=git-crypt
